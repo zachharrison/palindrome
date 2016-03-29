@@ -1,5 +1,5 @@
 function isPalindrome(str) {
-  var noSpaces = str.replace(/\s+/g, '');
+  var noSpaces = str.split(" ").join("");
   var mid = Math.floor(noSpaces.length/2);
   var last = noSpaces.length - 1;
 
