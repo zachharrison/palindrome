@@ -9,10 +9,11 @@ function isPalindrome(str) {
 }
 
 // Test driver code. These should all log true.
-console.log(isPalindrome('P') === true);
+console.log(isPalindrome('p') === true);
+console.log(isPalindrome('foo') === false);
 console.log(isPalindrome('racecar') === true);
-console.log(isPalindrome('a santa at nasa') === true);
-console.log(isPalindrome('A Toyota') === true);
-console.log(isPalindrome('No lemon no melon') === true);
+console.log(isPalindrome('Kayak') === true);
+console.log(isPalindrome('a santa at NASA') === true);
+console.log(isPalindrome('live without evil') === false);
 console.log(isPalindrome('just some random words') === false);
 
