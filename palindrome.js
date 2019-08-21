@@ -31,5 +31,5 @@ assertPalindrome('fluff', false);
 assertPalindrome('just some random words', false);
 
 // Bonus / Stretch: Uncomment these tests and figure out why these are also failing
-// assertPalindrome(isPalindrome('Kayak'), true);
-// assertPalindrome(isPalindrome('a santa at NASA'), true);
+// assertPalindrome('Kayak', true);
+// assertPalindrome('a santa at NASA', true);
