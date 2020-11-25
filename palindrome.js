@@ -12,8 +12,6 @@ const isPalindrome = function(str) {
   return true;
 }
 
-console.log(isPalindrome('fluff'));
-
 // Assertion Function
 const assertPalindrome = function(word, expected) {
   console.log(`Testing isPalindrome(\"${word}\"):`);
